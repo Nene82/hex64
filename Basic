@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+
+#coverting HEX into BASE64 via Python
+Hex_num = "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d"
+
+Bin_num= bin(int(Hex_num,16))#converting string to base 16
+Bin_num=Bin_num[4:]
+for count in range(0,):
+    for six in range(0,6,1):
+        print Bin_num[],
