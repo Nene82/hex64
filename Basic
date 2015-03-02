@@ -5,6 +5,9 @@ Hex_num = "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736
 
 Bin_num= bin(int(Hex_num,16))#converting string to base 16
 Bin_num=Bin_num[4:]
-for count in range(0,):
-    for six in range(0,6,1):
-        print Bin_num[],
+while True:
+        current=0
+        for length in range(current,len(Bin_num),1):
+            for six in range(0,6,1):
+                current=+6
+                print Bin_num[six]
